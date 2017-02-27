@@ -53,3 +53,7 @@ stty -hupcl -ixon -ixoff
 stty stop undef
 stty susp undef
 
+if [ "$TERM" = "screen" ]; then
+    export TERM=screen-256color
+fi
+
