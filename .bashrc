@@ -13,8 +13,8 @@ if [ -f /etc/bash_completion ]; then
     . /etc/bash_completion
 fi
 
-# Use Liquid Prompt
-source ~/liquidprompt/liquidprompt
+# Use Liquid Prompt (but not in interactive shells)
+[[ $- = *i* ]] && source ~/liquidprompt/liquidprompt
 
 source ~/.bash_aliases
 source ~/.bash_functions
