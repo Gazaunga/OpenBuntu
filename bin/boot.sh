@@ -10,6 +10,8 @@ sudo add-apt-repository ppa:mc3man/mpv-tests
 sudo add-apt-repository ppa:noobslab/apps
 sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get -y --allow-unauthenticated update
+cd ~/
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 packagelist=packagelist
 xargs -a <(awk '/^\s*[^#]/' "$packagelist") -r -- sudo apt-get -y install
 sudo pip install rainbowstream glances ImageScraper howdoi
