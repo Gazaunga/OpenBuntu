@@ -57,3 +57,5 @@ if [ "$TERM" = "screen" ]; then
     export TERM=screen-256color
 fi
 
+export XDG_CONFIG_HOME=$HOME/.config
+
