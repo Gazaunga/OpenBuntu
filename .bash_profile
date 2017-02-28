@@ -12,3 +12,5 @@ export PATH
 #source ~/.bashrc
 source ~/.bash_aliases
 source ~/.bash_functions
+
+setxkbmap -option caps:swapescape
