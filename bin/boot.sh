@@ -21,4 +21,5 @@ sudo pip install rainbowstream glances ImageScraper howdoi
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
 sudo add-apt-repository 'deb https://typora.io ./linux/'
 sudo apt-get -y --allow-unauthenticated update
+xmodmap -pke > ~/.xmodmap
 openbox --reconfigure
