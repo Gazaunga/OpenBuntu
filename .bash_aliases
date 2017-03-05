@@ -11,7 +11,12 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 # Get my IP address using HTTPS.
 alias httpsip='curl -s https://4.ifcfg.me/'
 
+#resolution for your system
+alias res='xdpyinfo | grep resolution'
+
 alias tmux='tmux -2' #Make tmux assume 256 colors.
+
+alias shot="scrot ~/Screenshots/`date +%y-%m-%d-%H:%M:%S`.png"
 
 alias make="clear && make"
 
@@ -23,10 +28,9 @@ alias bsu='source ~/.bashrc'
 
 alias q='exit'
 
-alias tree="tree -A"
-alias treed="tree -d"
-alias tree1="tree -d -L 1"
-alias tree2="tree -d -L 2"
+alias cp='cp -r'
+
+alias texupdate='tlmgr update --all'
 
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -38,3 +42,12 @@ alias exe='sudo chmod +x'
 
 # make `less` not clear the screen upon exit
 alias less='less -X'
+
+alias path='echo $PATH | tr -s ":" "\n"'
+
+# fonts
+alias fontc='fc-cache -fv'
+
+alias exe='sudo chmod +x'
+
+
