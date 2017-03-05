@@ -19,14 +19,14 @@ fi
 # Source global definitions
 [ -f /etc/bashrc ] && source /etc/bashrc
 
-[ -f ~/.bashrc.alias ] && source ~/.bashrc.alias
+[ -f ~/.bashrc_alias ] && source ~/.bashrc_alias
 
-[ -f ~/.bashrc.env ] && source ~/.bashrc.env
+[ -f ~/.bashrc_env ] && source ~/.bashrc_env
 
-[ -f ~/.bashrc.prompt ] && source ~/.bashrc.prompt
+[ -f ~/.bashrc_prompt ] && source ~/.bashrc_prompt
 
 # If it is a normal terminal, exec tmux
-[[ $TERM = "xterm-256color" || $TERM = "xterm-termite" ]] && exec tmux
+#[[ $TERM = "screen-256color" || $TERM = "urxvt" ]] && exec tmux
 
 # Auto-correct misspelled directories
 shopt -s dirspell direxpand
