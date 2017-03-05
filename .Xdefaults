@@ -39,7 +39,12 @@ rofi.color-urgent: #1d1f20, #ffffff, #1d1f20, #8096a0, #1d1f20
 *color7: #707880
 *color15: #C5C8C6
 
-URxvt.font: xft:Hack:regular:size=13
-URxvt.scrollBar: 	false
-URxvt.internalBorder: 	15
-URxvt.borderless: 	true
+urxvt*scrollBar: false
+urxvt*depth: 32
+urxvt*background: rgba:0000/0000/0200/c800
+urxvt*foreground:       #aaaaaa
+urxvt*transparent: true
+urxvt*shading: 23
+urxvt*font: xft:DejaVu Sans Mono:pixelsize=15:Regular
+urxvt*blurRadius: 5
+urxvt*fading: 30
