@@ -161,6 +161,10 @@ function to_install() {
 
 # MY SECTION #
 
+func_apt-get() {
+           apt-get install $PACKAGES
+}
+
 # Tar extraction
 
 extract() {      # Handy Extract Program
