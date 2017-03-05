@@ -1,4 +1,20 @@
 #!/bin/bash
+cd ~/OpenBuntu
+mv .bashrc ~/.bashrc
+mv .bash_aliases ~/.bash_aliases
+mv .bash_functions ~/.bash_functions
+mv .screenrc ~/.screenrc
+mv wallhaven-445512.jpg ~/Pictures/wallhaven-445512.jpg
+mv .bash_profile ~/.bash_profile
+mv .Xdefaults ~/.Xdefaults
+mv .editorconfig ~/.editorconfig
+mv .fehbg ~/.fehbg
+mv .config ~/.config
+mv rofi ~/rofi
+mv .profile ~/.profile
+mv .xinitrc ~/.xinitrc
+mv .xmodmap ~/.xmodmap
+mv bin ~/bin
 source ~/bin/utils.sh
 source ~/.bash_aliases
 cd ~/
@@ -24,7 +40,7 @@ sudo apt-get -qq update && sudo apt-get -qq dist-upgrade
 # http://www.omgubuntu.co.uk/2016/02/word-clock-conky-config-linux
 # https://www.box-look.org/p/1017851/
 
-exe setup-nautilus.sh
+sudo chmod +x setup-nautilus.sh
 ./setup-nautilus.sh
 
 hname="$(uname -n)"
@@ -62,3 +78,5 @@ sudo echo 'deb http://download.opensuse.org/repositories/home:/Head_on_a_Stick:/
 sudo apt-get -y update
 sudo apt-get -y install obmenu-generator
 sudo obmenu-generator -i -p -c
+
+
