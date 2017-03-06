@@ -28,7 +28,7 @@ sudo add-apt-repository ppa:mc3man/mpv-tests
 sudo add-apt-repository ppa:noobslab/apps
 sudo add-apt-repository ppa:nilarimogard/webupd8
 sudo apt-get -y --allow-unauthenticated update
-sudo apt-get -y --allow-unauthenticated install gdm openbox lxappearance-obconf feh texlive-full nautilus compton rofi moc texstudio arandr leafpad fontforge lxappearance rxvt-unicode
+sudo apt-get -y --allow-unauthenticated install gdm openbox lxappearance-obconf docky feh texlive-full nautilus compton rofi moc texstudio arandr leafpad fontforge lxappearance rxvt-unicode
 cd ~/
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 sudo apt-get -y install libreoffice darktable smplayer smtube smplayer-themes smplayer-skins mpv clipgrab openshot emacs python-pip albert
