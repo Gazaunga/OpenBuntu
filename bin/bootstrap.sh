@@ -48,6 +48,11 @@ e_underline "Let's make sure Nautilus acts the way we want"
 sudo chmod +x setup-nautilus.sh
 ./setup-nautilus.sh
 
+cd ~/bin
+wget https://raw.githubusercontent.com/quidsup/flashless-extras/master/flashless.sh
+sudo chmod +x flashless.sh
+sudo bash flashless.sh
+cd ~/
 hname="$(uname -n)"
 
 e_bold "Setting graphical editor"
