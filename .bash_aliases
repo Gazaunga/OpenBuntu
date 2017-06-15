@@ -1,3 +1,4 @@
+alias apt5='sudo apt-get check && sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove --purge && sudo apt-get autoclean'
 
 # some ls aliases
 alias ll='ls -alF'
